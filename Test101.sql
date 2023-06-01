@@ -1,4 +1,4 @@
-select 
+select top 1
 	ProdUGID,
 	count(resellerid)
 from tblresellers with(nolock)
