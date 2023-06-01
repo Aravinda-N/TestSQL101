@@ -7,7 +7,7 @@ where icompany = 11274
 group by ProdUGID 
 having count(resellerid) > 1
 
-select * from tblresellers
+select * from tblresellers with(nolock)
 where ProdUGID = 22293545
 and icompany = 11274
 
